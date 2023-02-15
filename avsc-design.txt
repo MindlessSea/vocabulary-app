@@ -1,4 +1,4 @@
-.avsv File Format:
+.avsc File Format:
 
 ----------------------------
 | Index | Native | Foreign |
