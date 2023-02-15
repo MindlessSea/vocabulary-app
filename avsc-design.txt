@@ -1,0 +1,19 @@
+.avsv File Format:
+
+----------------------------
+| Index | Native | Foreign |
+----------------------------
+
+$n<i> = Native Word from Table i
+$f<i> = Foreign Word from Table i
+
+Example:
+
+Pretty:
+0 | Hallo Welt | Hello World,
+1 |    Test    | $n1,
+2 |    $f1     | Test 2,
+...
+
+Minified:
+0|Hallo Welt|Hello World,1|Test|$n1,2|$f1|Test 2,...
